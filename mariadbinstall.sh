@@ -1,5 +1,5 @@
 # Custom Script for Linux
-nip!/bin/bash
+#nip!/bin/bash
 
 export DEBIAN_FRONTEND=noninteractive
 sudo debconf-set-selections <<< 'mariadb-server-10.1 mysql-server/root_password password PASS'
