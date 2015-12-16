@@ -6,3 +6,4 @@ sudo debconf-set-selections <<< 'mariadb-server-10.1 mysql-server/root_password_
 sudo apt-get update
 sudo apt-get install -y mariadb-server
 mysql -uroot -pPASS -e "SET PASSWORD = PASSWORD('')"
+
